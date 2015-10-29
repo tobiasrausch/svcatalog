@@ -11,7 +11,7 @@ To re-genotype these SVs with [Delly](http://github.com/tobiasrausch/delly) in a
 
 `./delly -t DEL -g hg19.fa -v DEL.hg19.vcf -o DEL.regeno.vcf NA19238.bam NA19239.bam NA19240.bam`
 
-The genotyping can be run in parallel, using [BCFtools](http://github.com/samtools/bcftools) to merge the VCFs.
+The genotyping can be run in parallel, using [BCFtools](http://github.com/samtools/bcftools) to merge the VCFs:
 
 `./delly -t DEL -g hg19.fa -v DEL.hg19.vcf -o DEL.NA19238.vcf NA19238.bam`
 
