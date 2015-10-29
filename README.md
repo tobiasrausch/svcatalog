@@ -1,7 +1,7 @@
 Structural Variant Catalog
 ==========================
 
-A repository for human genetic structural variants (SVs) discovered by [Delly](https://github.com/tobiasrausch/delly) in the [1000 Genomes](www.1000genomes.org) cohort of samples. SV sites are provided for deletions (DEL), insertions (INS) and duplications (DUP).
+A repository for human genetic structural variants (SVs) discovered by [Delly](https://github.com/tobiasrausch/delly) in the [1000 Genomes](https://www.1000genomes.org) cohort of samples. SV sites are provided for deletions (DEL), insertions (INS) and duplications (DUP).
 
 
 Re-genotyping of SVs
