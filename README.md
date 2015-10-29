@@ -20,3 +20,21 @@ The genotyping can be run in parallel, using [BCFtools](http://github.com/samtoo
 `./delly -t DEL -g hg19.fa -v DEL.hg19.vcf -o DEL.NA19240.vcf NA19240.bam`
 
 `./bcftools merge -o DEL.regeno.vcf.gz -O z DEL.NA19238.vcf.gz DEL.NA19239.vcf.gz DEL.NA19240.vcf.gz`
+
+
+SV properties
+-------------
+
+Visualizing the SV size and frequency spectrum using [svprops](http://github.com/tobiasrausch/svprops):
+
+`./svprops INS.hg19.vcf.gz > INS.tsv`
+
+`Rscript svprops/R/svprops.R INS.tsv`
+
+To visualize multiple SV types in the same plot:
+
+`cat DEL.tsv DUP.tsv INS.tsv | sort -r | uniq > All.tsv`
+
+`Rscript ~/scripts/cpp/svprops/R/svprops.R All.tsv`
+
+An example plot is shown.
