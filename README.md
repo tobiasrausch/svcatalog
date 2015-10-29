@@ -37,4 +37,4 @@ To visualize multiple SV types in the same plot:
 
 `Rscript ~/scripts/cpp/svprops/R/svprops.R All.tsv`
 
-An example plot is shown.
+An example plot is shown [here](http://github.com/tobiasrausch/svcatalog/blob/master/svprops.pdf).
